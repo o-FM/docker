@@ -1,8 +1,7 @@
-FROM nginx:latest
+FROM ubuntu:latest
 
-# -> Cria uma pasta e me direciona inicialmente para ela
-WORKDIR /app 
+# -> Comandos Fixos
+ENTRYPOINT [ "echo", "Hello " ]
 
-# -> RUN roda uma sequencia de comandos
-RUN apt-get update && \
-    apt-get install vim -y
+# -> Comandos variaveis
+CMD [ "World" ]
