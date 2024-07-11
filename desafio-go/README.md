@@ -35,14 +35,12 @@ Você verá a saída:
 ```sh 
 Full Cycle Rocks!!
 ```
-## Licença
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
 ## Imagem no Docker Hub
 
 Segue link da Imagem no Docker Hub
 
 [Desafio Go - Full Cycle](https://hub.docker.com/repository/docker/fsilva2021/fullcycle/general)
 
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
